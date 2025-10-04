@@ -129,6 +129,8 @@ return {
         "markdown_inline",
         "python",
         "query",
+        "java",
+        "cpp",
         "regex",
         "tsx",
         "typescript",
