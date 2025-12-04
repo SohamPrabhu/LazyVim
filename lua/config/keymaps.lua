@@ -3,3 +3,6 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "<C-a>", "ggVG", { noremap = true, silent = true })
+vim.keymap.set({ "n", "v" }, "d", '"_d', { desc = "Delete without yanking" })
+vim.keymap.set({ "n", "v" }, "x", '"_x', { desc = "Delete without yanking" })
+vim.keymap.set({ "n", "v" }, "c", '"_c', { desc = "Change without yanking" })
