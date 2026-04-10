@@ -130,6 +130,8 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "r",
+        "sql",
       },
     },
   },
