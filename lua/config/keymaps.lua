@@ -12,3 +12,7 @@ vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Live grep" })
 vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "Find buffers" })
 
 vim.keymap.set("n","<leader>e", ":Neotree toggle<CR>",{desc = "Toggle File Tree"})
+
+vim.keymap.set("n", "<C-h>", "<C-w>w",{desc = "Switch Window"})
+
+vim.keymap.set("n", "<leader>qq",":q<CR>", {desc="quit"})
