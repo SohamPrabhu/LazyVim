@@ -24,6 +24,12 @@ return{
     "mfussenegger/nvim-jdtls",
     ft = "java",
   },
+  {
+    "windwp/nvim-autopairs",
+    event = "InsertEnter",
+    config = true,
+
+  },
 
 
 }
